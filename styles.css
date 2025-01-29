@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    color: black; 
+}
+
+.container {
+    background-color: transparent;
+}
+
+table {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    border-spacing: 5px;
+}
+
+
+
+
+
+
