@@ -1,7 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Twemoji Country Flags", Arial, sans-serif;
     background-color: transparent;
-    color: black; 
+    color: white; 
+    font-weight: 600;
 }
 
 .container {
@@ -15,8 +16,7 @@ table {
     border-spacing: 5px;
 }
 
-
-
-
-
-
+.flag {
+    margin-right: 8px;
+    display: inline-block;
+}

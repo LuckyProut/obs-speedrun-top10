@@ -74,4 +74,22 @@ const formatTime = seconds => {
 };
 
 loadLeaderboard();
+
+function toggleVisibility(elementId) {
+    const element = document.getElementById(elementId);
+
+ 
+
+    function showAndHide() {
+        element.style.visibility = "visible"; 
+        element.style.opacity = "1";  
+        setTimeout(() => {
+            element.classList.add("hidden");  // Ajoute la classe pour faire disparaître l'élément
+        }, 0); 
+    }
+
+    showAndHide();
+    setInterval(showAndHide, 6 * 60 * 1000);
+}
+toggleVisibility("output");
 });
